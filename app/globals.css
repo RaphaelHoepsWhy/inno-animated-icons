@@ -24,4 +24,13 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .fix-use-animations {
+    svg:first-child {
+      display: none;
+    }
+    svg {
+      stroke: currentColor !important;
+    }
+  }
 }
