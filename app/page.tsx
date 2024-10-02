@@ -11,7 +11,7 @@ export default function Home() {
 
         <IconsUnseAnimations />
         <h2 className="pb-8 pt-16 font-mono text-xl text-gray-400">
-          Based on AI generated framer-motion
+          Based on AI generated svg paths
         </h2>
         <IconsFramerMotion />
       </div>
