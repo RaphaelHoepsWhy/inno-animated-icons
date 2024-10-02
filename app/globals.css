@@ -29,6 +29,9 @@ body {
     svg:first-child {
       display: none;
     }
+    svg:last-child {
+      display: block !important;
+    }
     svg {
       stroke: currentColor !important;
     }
