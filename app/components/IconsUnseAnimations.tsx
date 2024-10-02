@@ -9,7 +9,7 @@ const IconsUnseAnimations: FC = () => {
   const [checked, setChecked] = useState(false)
 
   return (
-    <div className="fix-use-animations flex gap-2 pl-8">
+    <div className="fix-use-animations flex gap-4 pl-8">
       <UseAnimations
         animation={github}
         size={56}

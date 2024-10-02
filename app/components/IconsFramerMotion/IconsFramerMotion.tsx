@@ -6,14 +6,14 @@ import { variants, variantsTail } from "./paths"
 
 export const IconsFramerMotion = () => {
   return (
-    <div className="flex gap-8">
+    <div className="flex gap-8 pl-8">
       {variants.map((variant, index) => (
         <motion.svg
           key={index}
           xmlns="http://www.w3.org/2000/svg"
           version="1.1"
-          width={"100px"}
-          height={"100px"}
+          width={"48px"}
+          height={"48px"}
           viewBox="0 0 24 24"
           initial="start"
           whileHover={"hover"}
@@ -21,7 +21,7 @@ export const IconsFramerMotion = () => {
           <motion.path
             variants={variant}
             stroke={"white"}
-            strokeWidth={1.5}
+            strokeWidth={2}
             strokeLinecap={"round"}
             strokeLinejoin={"round"}
             fill={"transparent"}
@@ -29,7 +29,7 @@ export const IconsFramerMotion = () => {
           <motion.path
             variants={variantsTail[index]}
             stroke={"white"}
-            strokeWidth={1.5}
+            strokeWidth={2}
             strokeLinecap={"round"}
             strokeLinejoin={"round"}
             fill={"transparent"}
